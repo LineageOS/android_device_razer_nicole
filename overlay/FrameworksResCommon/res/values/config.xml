@@ -90,6 +90,61 @@
          flag is set for wifi displays.
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+   
+       <!-- An array describing the screen's backlight values corresponding to the brightness
+         values in the config_screenBrightnessNits array.
+
+         This array should be equal in size to config_screenBrightnessBacklight. -->
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>35</item>
+        <item>70</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>110</item>
+        <item>125</item>
+        <item>130</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
+        <item>255</item>
+    </integer-array>
+    
+        <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
+         values in the config_screenBrightnessBacklight array.  On OLED displays these  values
+         should be measured with an all white image while the display is in the fully on state.
+         Note that this value should *not* reflect the maximum brightness value for any high
+         brightness modes but only the maximum brightness value obtainable in a sustainable manner.
+
+         This array should be equal in size to config_screenBrightnessBacklight -->
+        <array name="config_screenBrightnessNits">
+        <item>9.0</item>
+        <item>13.0</item>
+        <item>45.0</item>
+        <item>60.0</item>
+        <item>70.0</item>
+        <item>80.0</item>
+        <item>90.0</item>
+        <item>100.0</item>
+        <item>140.0</item>
+        <item>170.0</item>
+        <item>190.0</item>
+        <item>200.0</item>
+        <item>302.0</item>
+        <item>345.0</item>
+        <item>360.0</item>
+        <item>370.0</item>
+        <item>390.0</item>
+        <item>400.0</item>
+        <item>500.0</item>
+    </array>
 
     <!-- Boolean indicating if restoring network selection should be skipped,
          the restoring is handled by modem if it is true -->
@@ -101,13 +156,24 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>10</item>
-        <item>20</item>
-        <item>40</item>
+        <item>1</item>
+        <item>35</item>
         <item>70</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
         <item>110</item>
-        <item>160</item>
+        <item>125</item>
+        <item>130</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
         <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
         <item>255</item>
     </integer-array>
 
@@ -132,13 +198,24 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>2</item>
         <item>10</item>
-        <item>30</item>
-        <item>60</item>
-        <item>100</item>
-        <item>150</item>
-        <item>210</item>
-        <item>255</item>
+        <item>15</item>
+        <item>35</item>
+        <item>75</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>950</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>10000</item>
     </integer-array>
 
     <!-- The default refresh rate for a given device. Change this value to set a higher default

@@ -198,7 +198,7 @@ $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm
 
-$(call soong_config_set,livedisplay_sdm,enable_dm,false)
+$(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -206,7 +206,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_performance_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_lahaina.xml \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
-$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+$(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,true)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

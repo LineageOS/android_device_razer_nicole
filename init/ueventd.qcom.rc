@@ -481,5 +481,12 @@ firmware_directories /vendor/firmware_mnt/image/
 # Battery
 /sys/class/qcom-battery                                 charging_enabled                0660    system  system
 
+# MHI
+/dev/mhi_DUN              0660   radio      radio
+/dev/mhi_DIAG             0660   radio      radio
+/dev/mhi_BHI              0660   radio      radio
+/dev/mhi_LOOPBACK         0660   radio      radio
+/dev/mhi_QMI0             0660   radio      radio
+
 # Touchscreen
 /sys/devices/platform/soc/a90000.spi/spi_master/spi0/spi0.0    fts_gesture_mode         0660    system  system

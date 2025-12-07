@@ -211,7 +211,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResCommon \
+    FrameworksResCommonTelephony \
     FrameworksResTarget \
+    FrameworksResTargetTelephony \
     Launcher3ResTarget \
     NcmTetheringOverlay \
     SettingsProviderResCommon \
@@ -261,6 +263,16 @@ PRODUCT_COPY_FILES += \
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+# SKU
+PRODUCT_PACKAGES += \
+    hardware.sku.5g.prop \
+    hardware.sku.wifi.prop
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sku/permissions/unavail.android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/sku_wifi/unavail.android.hardware.telephony.euicc.xml \
+    $(LOCAL_PATH)/sku/permissions/unavail.android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_wifi/unavail.android.hardware.telephony.ims.xml \
+    $(LOCAL_PATH)/sku/permissions/unavail.android.hardware.telephony.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_wifi/unavail.android.hardware.telephony.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -9,5 +9,7 @@
     <overlay
         android:isStatic="true"
         android:priority="200"
-        android:targetPackage="com.android.phone" />
+        android:targetPackage="com.android.phone"
+        android:requiredSystemPropertyName="ro.boot.hardware.sku"
+        android:requiredSystemPropertyValue="5g" />
 </manifest>

@@ -112,7 +112,6 @@ vendor.display.vds_allow_hwc=1
 
 # DPM
 persist.vendor.dpm.idletimer.mode=default
-persist.vendor.dpmhalservice.enable=1
 
 # DRM
 drm.service.enabled=true
@@ -164,14 +163,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
 
-# Radio
-persist.radio.multisim.config=ssss
-persist.vendor.radio.uicc_se_enabled=1
-ro.telephony.default_network=33,33
-ro.vendor.hacked.release=12
-telephony.lteOnCdmaDevice=1
-vendor.rild.libpath=/vendor/lib64/hw/libquectel-ril.so
-
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.enable.mag_filter=true
@@ -208,3 +199,6 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# SKU specific properties
+import /vendor/etc/hardware.sku.${ro.boot.hardware.sku}.prop

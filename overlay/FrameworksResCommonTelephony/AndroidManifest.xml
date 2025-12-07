@@ -4,12 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.carrierconfig.overlay.common">
+    package="android.overlay.common.telephony">
 
     <overlay
         android:isStatic="true"
-        android:priority="200"
-        android:targetPackage="com.android.carrierconfig"
+        android:priority="250"
+        android:targetPackage="android"
         android:requiredSystemPropertyName="ro.boot.hardware.sku"
         android:requiredSystemPropertyValue="5g" />
 </manifest>

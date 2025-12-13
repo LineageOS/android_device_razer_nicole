@@ -184,10 +184,9 @@
     <ctl name="RX_CDC_DMA_RX_0 Format" value="S32_LE" />
     <ctl name="TX_CDC_DMA_TX_3 Format" value="S32_LE" />
     <ctl name="WSA_CDC_DMA_TX_0 SampleRate" value="KHZ_48" />
-	<ctl name="PRI_MI2S_RX_VI_FB_MUX" value="Zero" />
-	<ctl name="PRIM_MI2S_RX Format" value="S32_LE" />
-	<ctl name="PRIM_MI2S_TX_Format" value="S32_LE" />
-	<!--<ctl name="PRIM_MI2S_TX Channels" value="Two" /> -->
+    <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="Zero" />
+    <ctl name="PRIM_MI2S_RX Format" value="S32_LE" />
+    <ctl name="PRIM_MI2S_TX_Format" value="S32_LE" />
     <!-- HFP start -->
     <ctl name="HFP_SLIM7_UL_HL Switch" value="0" />
     <ctl name="WSA_CDC_DMA_RX_0 Port Mixer SLIM_7_TX" value="0" />
@@ -2823,7 +2822,7 @@
     </path>
 
     <path name="spkr-vi-record">
-	<ctl name="PRI_MI2S_RX_VI_FB_MUX" value="PRI_MI2S_TX" />
+        <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="PRI_MI2S_TX" />
     </path>
 
     <path name="audio-with-haptics-playback">
@@ -3031,21 +3030,8 @@
     </path>
 
     <path name="speaker">
-        <!--ctl name="WSA_CDC_DMA_RX_0 Channels" value="Two" />
-        <ctl name="WSA RX0 MUX" value="AIF1_PB" />
-        <ctl name="WSA RX1 MUX" value="AIF1_PB" />
-        <ctl name="WSA_RX0 INP0" value="RX0" />
-        <ctl name="WSA_RX1 INP0" value="RX1" />
-        <ctl name="WSA_COMP1 Switch" value="1" />
-        <ctl name="WSA_COMP2 Switch" value="1" />
-        <ctl name="SpkrLeft COMP Switch" value="1" />
-        <ctl name="SpkrLeft VISENSE Switch" value="1" />
-        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="SpkrRight COMP Switch" value="1" />
-        <ctl name="SpkrRight VISENSE Switch" value="1" />
-        <ctl name="SpkrRight SWR DAC_Port Switch" value="1" / -->
-		<ctl name="PRIM_MI2S_RX Format" value="S32_LE" />
-		<ctl name="PRIM_MI2S_TX_Format" value="S32_LE" />
+        <ctl name="PRIM_MI2S_RX Format" value="S32_LE" />
+        <ctl name="PRIM_MI2S_TX_Format" value="S32_LE" />
     </path>
 
     <path name="haptics">
@@ -3053,23 +3039,9 @@
     </path>
 
     <path name="speaker-mono">
-        <!-- ctl name="WSA_CDC_DMA_RX_0 Channels" value="One" />
-        <ctl name="WSA RX0 MUX" value="AIF1_PB" />
-        <ctl name="WSA_RX0 INP0" value="RX0" />
-        <ctl name="WSA_COMP1 Switch" value="1" />
-        <ctl name="SpkrLeft COMP Switch" value="1" />
-        <ctl name="SpkrLeft VISENSE Switch" value="1" />
-        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" / -->
     </path>
 
     <path name="speaker-mono-2">
-        <!-- ctl name="WSA_CDC_DMA_RX_0 Channels" value="One" />
-        <ctl name="WSA RX1 MUX" value="AIF1_PB" />
-        <ctl name="WSA_RX1 INP0" value="RX1" />
-        <ctl name="WSA_COMP2 Switch" value="1" />
-        <ctl name="SpkrRight COMP Switch" value="1" />
-        <ctl name="SpkrRight VISENSE Switch" value="1" />
-        <ctl name="SpkrRight SWR DAC_Port Switch" value="1" / -->
     </path>
 
     <path name="speaker-vbat-mono">
@@ -3084,10 +3056,6 @@
 
     <path name="speaker-vbat">
        <path name="speaker" />
-       <!--
-       <ctl name="WSA_RX INT0 VBAT WSA RX0 VBAT Enable" value="1" />
-       <ctl name="WSA_RX INT1 VBAT WSA RX1 VBAT Enable" value="1" />
-       -->
     </path>
 
     <path name="speaker-hdk">
@@ -3146,15 +3114,7 @@
     </path>
 
     <path name="speaker-protected">
-	    <!--<ctl name="WSA_AIF_VI Mixer WSA_SPKR_VI_1" value="1" />
-        <ctl name="WSA_AIF_VI Mixer WSA_SPKR_VI_2" value="1" />
-        <ctl name="WSA_CDC_DMA_0 TX Format" value="PACKED_16B" />
         <path name="speaker" />
-        <ctl name="VI_FEED_TX Channels" value="Two" />
-        <ctl name="WSA_RX_0_VI_FB_LCH_MUX" value="WSA_CDC_DMA_TX_0" />
-	<ctl name="WSA_RX_0_VI_FB_RCH_MUX" value="WSA_CDC_DMA_TX_0" /> -->
-	<path name="speaker" />
-
     </path>
 
     <path name="voice-speaker-protected">
@@ -3179,10 +3139,7 @@
 
     <path name="speaker-protected-vbat">
         <path name="speaker-protected" />
-       <!-- <ctl name="WSA_RX INT0 VBAT WSA RX0 VBAT Enable" value="1" />
-        <ctl name="WSA_RX INT1 VBAT WSA RX1 VBAT Enable" value="1" />
-		-->
-	</path>
+    </path>
 
     <path name="voice-speaker-protected-vbat">
         <path name="voice-speaker-protected" />
@@ -3208,15 +3165,6 @@
     </path>
 
     <path name="handset">
-		<!--
-        <ctl name="WSA_CDC_DMA_RX_0 Channels" value="One" />
-        <ctl name="WSA RX0 MUX" value="AIF1_PB" />
-        <ctl name="WSA_RX0 INP0" value="RX0" />
-        <ctl name="WSA_COMP1 Switch" value="1" />
-        <ctl name="SpkrLeft COMP Switch" value="1" />
-        <ctl name="SpkrLeft VISENSE Switch" value="1" />
-        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-		-->
     </path>
 
     <path name="handset-mic">
@@ -3466,15 +3414,6 @@
     </path>
 
     <path name="usb-headset-mic">
-	<!--
-       <ctl name="AFE_PCM_RX Audio Mixer MultiMedia5" value="1" />
-	   <ctl name="MultiMedia5 Mixer AFE_PCM_TX" value="1" />
-	   <ctl name="USB_AUDIO_TX dev_token" value="65537" />
-	   <ctl name="USB_AUDIO_TX SampleRate" value="KHZ_48" />
-	   <ctl name="USB_AUDIO_TX Channels" value="Two" />
-	   <ctl name="USB_AUDIO_TX Format" value="S16_LE" />
-	   <ctl name="MultiMedia5 Mixer USB_AUDIO_TX" value="1" />
-	-->
     </path>
 
     <path name="capture-fm">
@@ -3489,29 +3428,12 @@
         <ctl name="TX DMIC MUX2" value="DMIC2" />
     </path>
 
-<!--
     <path name="speaker-dmic-endfire">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
-        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
-        <ctl name="TX DMIC MUX1" value="DMIC1" />
-        <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
-        <ctl name="TX DMIC MUX2" value="DMIC2" />
+        <path name="dmic2" />
     </path>
--->
-
-    <path name="speaker-dmic-endfire">
-	<path name="dmic2" />
-    </path>
-
-    <!--
-    <path name="dmic-endfire">
-        <path name="handset-dmic-endfire" />
-        <ctl name="IIR0 INP0 MUX" value="DEC2" />
-    </path>
-    -->
 
     <path name="dmic-endfire">
-	<path name="dmic2" />
+        <path name="dmic2" />
     </path>
 
     <path name="dmic-endfire-liquid">

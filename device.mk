@@ -214,6 +214,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommonTelephony \
     FrameworksResTarget \
     FrameworksResTargetTelephony \
+    FrameworksResTargetWifi \
     Launcher3ResTarget \
     NcmTetheringOverlay \
     SettingsProviderResCommon \

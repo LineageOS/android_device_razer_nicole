@@ -43,6 +43,9 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/init/android.hardware.radio@1.4-service.quectel.rc': blob_fixup()
+        .regex_replace(' quectel.ril-daemon', ' vendor.quectel.ril-daemon')
+        .add_line_if_missing('    disabled'),
     'vendor/etc/init/imsdaemon.rc': blob_fixup()
         .add_line_if_missing('    disabled'),
     'vendor/lib64/hw/libquectel-ril.so': blob_fixup()

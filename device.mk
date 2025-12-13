@@ -161,7 +161,6 @@ $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class
 PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.vendor_ramdisk \
-    init.class_main.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \

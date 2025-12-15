@@ -1,0 +1,17 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+phony {
+    name: "RazerEdgeEuicc",
+    required: [
+        "EuiccPolicy",
+        "EuiccPolicyRazerEdge",
+    ],
+}
+
+runtime_resource_overlay {
+    name: "EuiccPolicyRazerEdge",
+    product_specific: true,
+}

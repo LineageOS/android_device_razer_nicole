@@ -8,6 +8,7 @@
           package="org.lineageos.telephonydisabler">
 
     <queries>
+        <package android:name="com.android.messaging" />
         <package android:name="com.google.android.gms" />
         <package android:name="com.google.android.gsf" />
         <package android:name="com.google.android.euicc" />

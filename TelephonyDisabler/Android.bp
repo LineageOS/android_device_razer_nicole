@@ -8,9 +8,9 @@ android_app {
 
     srcs: ["src/**/*.kt"],
 
-    sdk_version: "current",
-    product_specific: true,
+    system_ext_specific: true,
     certificate: "platform",
+    platform_apis: true,
     privileged: true,
     privapp_allowlist: "org.lineageos.telephonydisabler.xml",
 
@@ -27,5 +27,5 @@ prebuilt_etc {
     relative_install_path: "sysconfig",
     filename: "hidden-api-whitelist-org.lineageos.telephonydisabler.xml",
     src: "hidden-api-whitelist-org.lineageos.telephonydisabler.xml",
-    product_specific: true,
+    system_ext_specific: true,
 }

@@ -13,7 +13,7 @@ import android.util.Log
 class BootCompletedReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         Log.d(TAG, "Received boot completed intent")
-        TelephonyDisabler.enableOrDisableEuicc(context)
+        TelephonyDisabler.enableOrDisablePackages(context)
     }
 
     companion object {

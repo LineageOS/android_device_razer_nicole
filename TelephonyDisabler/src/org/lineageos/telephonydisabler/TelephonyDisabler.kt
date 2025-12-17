@@ -9,10 +9,13 @@ import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.content.pm.PackageManager.ApplicationInfoFlags
+import android.os.Build
 import android.util.Log
 
 object TelephonyDisabler {
     private const val TAG = "TelephonyDisabler"
+
+    private const val SKU_WIFI = "wifi"
 
     private val EUICC_DEPENDENCIES = listOf(
         "com.google.android.gms",
@@ -22,6 +25,10 @@ object TelephonyDisabler {
     private val EUICC_PACKAGES = listOf(
         "com.google.android.euicc",
         "com.google.android.ims",
+    )
+
+    private val ADDITIONAL_PACKAGES = listOf(
+        "com.android.messaging",
     )
 
     private fun isInstalled(pm: PackageManager, pkgName: String) = runCatching {
@@ -35,18 +42,25 @@ object TelephonyDisabler {
         info.enabled
     }.getOrDefault(false)
 
-    fun enableOrDisableEuicc(context: Context) {
+    fun enableOrDisablePackages(context: Context) {
         val pm = context.packageManager
-        val disable = EUICC_DEPENDENCIES.any { !isInstalledAndEnabled(pm, it) }
-        val flag = if (disable) {
-            PackageManager.COMPONENT_ENABLED_STATE_DISABLED
-        } else {
-            PackageManager.COMPONENT_ENABLED_STATE_ENABLED
-        }
+        val isWifi = Build.ODM_SKU == SKU_WIFI
+        val gmsMissing = EUICC_DEPENDENCIES.any { !isInstalledAndEnabled(pm, it) }
 
-        for (pkg in EUICC_PACKAGES) {
-            if (isInstalled(pm, pkg)) {
-                pm.setApplicationEnabledSetting(pkg, flag, 0)
+        mapOf(
+            EUICC_PACKAGES to (isWifi || gmsMissing),
+            ADDITIONAL_PACKAGES to isWifi
+        ).forEach { (pkgs, shouldDisable) ->
+            val flag = if (shouldDisable) {
+                PackageManager.COMPONENT_ENABLED_STATE_DISABLED
+            } else {
+                PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+            }
+
+            for (pkg in pkgs) {
+                if (isInstalled(pm, pkg)) {
+                    pm.setApplicationEnabledSetting(pkg, flag, 0)
+                }
             }
         }
     }

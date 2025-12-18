@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45605647_45086c91",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1066,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:30:04Z",
+      "side": 0,
+      "message": "wow... no L1... that\u0027s sad. But stock doesn\u0027t have it.",
+      "range": {
+        "startLine": 1066,
+        "startChar": 0,
+        "endLine": 1066,
+        "endChar": 28
+      },
+      "revId": "c9f990faf9215cb697e7374fa10a95f4d6aa1b38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

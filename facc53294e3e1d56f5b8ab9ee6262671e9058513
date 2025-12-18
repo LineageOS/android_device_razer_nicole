@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad0d9e39_365a3471",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-18T13:40:11Z",
+      "side": 1,
+      "message": "GoogleDialer doesn\u0027t override Dialer?",
+      "revId": "facc53294e3e1d56f5b8ab9ee6262671e9058513",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

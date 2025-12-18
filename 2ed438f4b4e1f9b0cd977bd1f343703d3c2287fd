@@ -22,6 +22,30 @@
       },
       "revId": "2ed438f4b4e1f9b0cd977bd1f343703d3c2287fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a6683aa_ed44650d",
+        "filename": "audio_amplifier/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-18T01:59:22Z",
+      "side": 1,
+      "message": "It needs to be lahaina for it to be loaded",
+      "parentUuid": "b20e70e0_eba5d01c",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 34
+      },
+      "revId": "2ed438f4b4e1f9b0cd977bd1f343703d3c2287fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

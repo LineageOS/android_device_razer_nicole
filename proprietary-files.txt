@@ -746,6 +746,10 @@ vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
+# Razer
+system/app/Bianca/Bianca.apk;PRESIGNED
+system/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-razer.xml
+
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
@@ -1007,6 +1011,23 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+
+# Verizon
+product/etc/permissions/razer.xml
+system/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
+system/app/verizondata/verizondata.apk
+system/etc/default-permissions/default-permissions-razer.xml
+system/etc/permissions/com.verizon.devicetype.tablet.xml
+system/etc/permissions/com.verizon.hardware.telephony.lte.xml
+system/etc/permissions/razer_apnlib.xml
+system/etc/sysconfig/verizon-hiddenapi-package-whitelist.xml
+system/etc/sysconfig/whitelist_verizon_packages.xml
+system/framework/com.verizon.ims.jar
+system/framework/com.verizon.net.jar
+system/framework/com.verizon.phone.jar
+system/priv-app/MVS/MVS.apk;PRESIGNED
+system/priv-app/ONS/ONS.apk
+system/priv-app/subsdm/subsdm.apk
 
 # Vibrator firmware
 vendor/firmware/aw8622x_haptic.bin

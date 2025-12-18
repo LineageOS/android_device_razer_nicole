@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aab92d8_9f47e12b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:44:38Z",
+      "side": 1,
+      "message": "system_ext props can\u0027t be set from vendor context, and the one vendor prop isn\u0027t worth moving I guess.",
+      "revId": "07f020b4992cbdef391a56a1109b82b332af7c7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }

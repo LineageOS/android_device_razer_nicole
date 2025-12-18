@@ -69,6 +69,30 @@
       },
       "revId": "7669a37e0f1ae53610b3338ee1648a16c20194b1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3863525_456f5713",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-18T02:14:42Z",
+      "side": 1,
+      "message": "This is correct:\n    Chain Partition descriptor:\n      Partition Name:          vbmeta_system\n      Rollback Index Location: 2",
+      "parentUuid": "153f62fd_6df0617c",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 52
+      },
+      "revId": "7669a37e0f1ae53610b3338ee1648a16c20194b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

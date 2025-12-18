@@ -1,12 +1,18 @@
 # Bluetooth
 bluetooth.device.default_name=Razer Edge 5G
 
+# CNE
+persist.vendor.cne.feature=1
+
 # DPM
+persist.vendor.dpm.feature=11
+persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
 
 # Radio
 persist.radio.multisim.config=ssss
 persist.vendor.radio.uicc_se_enabled=1
+ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 ro.telephony.sim_slots.count=1
 ro.vendor.hacked.release=12

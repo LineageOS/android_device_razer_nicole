@@ -70,6 +70,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd2e154_cb6a5535",
+        "filename": "system_ext.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "8144f9e9_175e4847",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 39
+      },
+      "revId": "f02c996eed4f707eeb33bff3bf136c36b8c1e33f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27a82110_b4b7b945",
@@ -129,6 +153,30 @@
       "writtenOn": "2025-12-18T01:47:43Z",
       "side": 0,
       "message": "off topic to this change, isn\u0027t this default?",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 17
+      },
+      "revId": "f02c996eed4f707eeb33bff3bf136c36b8c1e33f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e1f79f1_15d9d079",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 0,
+      "message": "Follow up if anything",
+      "parentUuid": "10a18c24_b6c5f0da",
       "range": {
         "startLine": 121,
         "startChar": 0,

@@ -746,6 +746,9 @@ vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
+# Razer Kishi Gamepad
+system/app/Bianca/Bianca.apk:product/app/Bianca/Bianca.apk;PRESIGNED
+
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
@@ -1007,6 +1010,23 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+
+# Verizon
+product/etc/permissions/razer.xml
+system/app/VZWAPNLib/VZWAPNLib.apk:product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
+system/app/verizondata/verizondata.apk:product/app/verizondata/verizondata.apk
+system/etc/default-permissions/default-permissions-razer.xml:product/etc/default-permissions/default-permissions-razer.xml
+system/etc/permissions/com.verizon.devicetype.tablet.xml:product/etc/permissions/com.verizon.devicetype.tablet.xml
+system/etc/permissions/com.verizon.hardware.telephony.lte.xml:product/etc/permissions/com.verizon.hardware.telephony.lte.xml
+system/etc/permissions/razer_apnlib.xml:product/etc/permissions/razer_apnlib.xml
+system/etc/sysconfig/verizon-hiddenapi-package-whitelist.xml:product/etc/sysconfig/verizon-hiddenapi-package-whitelist.xml
+system/etc/sysconfig/whitelist_verizon_packages.xml:product/etc/sysconfig/whitelist_verizon_packages.xml
+system/framework/com.verizon.ims.jar:product/framework/com.verizon.ims.jar
+system/framework/com.verizon.net.jar:product/framework/com.verizon.net.jar
+system/framework/com.verizon.phone.jar:product/framework/com.verizon.phone.jar
+system/priv-app/MVS/MVS.apk:product/priv-app/MVS/MVS.apk;PRESIGNED
+system/priv-app/ONS/ONS.apk:product/priv-app/ONS/ONS.apk
+system/priv-app/subsdm/subsdm.apk:product/priv-app/subsdm/subsdm.apk
 
 # Vibrator firmware
 vendor/firmware/aw8622x_haptic.bin

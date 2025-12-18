@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9eeeea10_489fa30c",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:28:58Z",
+      "side": 1,
+      "message": "Lineage recovery: ```RZ45-0460:/ # getprop  ro.product.device\nRZ45-0460```",
+      "parentUuid": "a8853e75_e2e67c49",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 60
+      },
+      "revId": "e5629ab553dbec35bb47760b95b53b30e456fe72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac6fca5e_dd5d0f75",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-12-18T01:55:20Z",
       "side": 1,
       "message": "if this is in a platform repo somewhere we copied do we just wanna symlink to it? easier IMO.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "e5629ab553dbec35bb47760b95b53b30e456fe72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60355e81_26acf142",
+        "filename": "libinit/.clang-format",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:28:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac6fca5e_dd5d0f75",
       "range": {
         "startLine": 1,
         "startChar": 0,

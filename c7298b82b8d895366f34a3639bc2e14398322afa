@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93683b14_845fd93f",
+        "filename": "sepolicy/private/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:40:21Z",
+      "side": 1,
+      "message": "do we just wanna label ro.bootanim. as this in a more platform centric repo?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 12
+      },
+      "revId": "c7298b82b8d895366f34a3639bc2e14398322afa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c415b33_07b4e679",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:32:42Z",
+      "side": 0,
+      "message": "this might not be right double checking\n\n```\nnolenjohnson@ODS-PROD:~/dumps/razer/nicolelte/dump$ ~/lineage-23/external/avb/avbtool.py info_image --image vbmeta_system.img \nMinimum libavb version:   1.0\nHeader Block:             256 bytes\nAuthentication Block:     320 bytes\nAuxiliary Block:          2432 bytes\nPublic key (sha1):        cdbb77177f731920bbe0a0f94f84d9038ae0617d\nAlgorithm:                SHA256_RSA2048\nRollback Index:           1735689600\nFlags:                    0\nRollback Index Location:  0\nRelease String:           \u0027avbtool 1.2.0\u0027\nDescriptors:\n```\n\n```\nnolenjohnson@ODS-PROD:~/dumps/razer/nicolelte/dump$ ~/lineage-23/external/avb/avbtool.py info_image --image vbmeta.img        \nMinimum libavb version:   1.0\nHeader Block:             256 bytes\nAuthentication Block:     576 bytes\nAuxiliary Block:          4096 bytes\nPublic key (sha1):        2597c218aae470a130f61162feaae70afd97f011\nAlgorithm:                SHA256_RSA4096\nRollback Index:           0\nFlags:                    0\nRollback Index Location:  0\nRelease String:           \u0027avbtool 1.2.0\u0027\nDescriptors:\n```",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 97
+      },
+      "revId": "71cb50b870be5aa498919a7a93fed1947fbc0ea7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

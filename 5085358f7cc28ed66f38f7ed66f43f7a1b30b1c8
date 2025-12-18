@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "067dc3b0_0a2e7234",
+        "filename": "sku/props/hardware.sku.wifi.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:48:32Z",
+      "side": 1,
+      "message": "Does stock do this?\n\nOr is the wifi one just \"Razer Edge\" and the cell one \"Razer Edge 5G\"?",
+      "range": {
+        "startLine": 2,
+        "startChar": 41,
+        "endLine": 2,
+        "endChar": 45
+      },
+      "revId": "5085358f7cc28ed66f38f7ed66f43f7a1b30b1c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31200563_419b02c5",
+        "filename": "sku/props/hardware.sku.wifi.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:48:32Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 41
+      },
+      "revId": "5085358f7cc28ed66f38f7ed66f43f7a1b30b1c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

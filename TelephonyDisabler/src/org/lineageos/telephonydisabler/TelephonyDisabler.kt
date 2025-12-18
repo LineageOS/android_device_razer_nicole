@@ -29,7 +29,16 @@ object TelephonyDisabler {
 
     private val ADDITIONAL_PACKAGES = listOf(
         "com.android.messaging",
+        "com.android.ons",
+        "com.google.android.euicc",
+        "com.google.android.gms",
+        "com.google.android.gsf",
+        "com.google.android.ims",
         "com.google.android.messages",
+        "com.oma.dm.sub",
+        "com.razer.verizondata",
+        "com.verizon.mips.services",
+        "com.vzw.apnlib",
     )
 
     private fun isInstalled(pm: PackageManager, pkgName: String) = runCatching {

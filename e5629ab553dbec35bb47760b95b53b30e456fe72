@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8853e75_e2e67c49",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:55:20Z",
+      "side": 1,
+      "message": "Where did that middle value come from? If we have it, should we have the 5g equip?\n\nIs there a separate model number for 5g?\n\nAlso, why are we overriding this period? Typically this would be done to allow flashing in a recovery that _reports_ as that - but ours reports as Nicole? and Nicole is default?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 60
+      },
+      "revId": "e5629ab553dbec35bb47760b95b53b30e456fe72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac6fca5e_dd5d0f75",
+        "filename": "libinit/.clang-format",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:55:20Z",
+      "side": 1,
+      "message": "if this is in a platform repo somewhere we copied do we just wanna symlink to it? easier IMO.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "e5629ab553dbec35bb47760b95b53b30e456fe72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

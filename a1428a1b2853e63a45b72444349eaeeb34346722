@@ -22,6 +22,30 @@
       },
       "revId": "a1428a1b2853e63a45b72444349eaeeb34346722",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf3e587a_a33c4780",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-18T02:02:00Z",
+      "side": 1,
+      "message": "That\u0027s just picked as-is from qcom audio HAL",
+      "parentUuid": "7a33ff75_988cb7ac",
+      "range": {
+        "startLine": 9,
+        "startChar": 42,
+        "endLine": 9,
+        "endChar": 44
+      },
+      "revId": "a1428a1b2853e63a45b72444349eaeeb34346722",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

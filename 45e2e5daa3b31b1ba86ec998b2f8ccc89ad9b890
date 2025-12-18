@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29c33fd8_b4b4bac7",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bc998d9_4845f32e",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 3
+      },
+      "revId": "45e2e5daa3b31b1ba86ec998b2f8ccc89ad9b890",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7ea78418_46610f8e",
@@ -95,6 +119,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e786ce3e_89312bee",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39f0f2ff_15e6f623",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 93
+      },
+      "revId": "45e2e5daa3b31b1ba86ec998b2f8ccc89ad9b890",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12482d44_25ef6d07",
@@ -108,6 +156,30 @@
       "writtenOn": "2025-12-18T01:38:54Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 4
+      },
+      "revId": "45e2e5daa3b31b1ba86ec998b2f8ccc89ad9b890",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ab38aab_97b93719",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12482d44_25ef6d07",
       "range": {
         "startLine": 119,
         "startChar": 0,

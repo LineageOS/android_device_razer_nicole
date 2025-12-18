@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e718d2f7_057aa807",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1116,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:23:49Z",
+      "side": 0,
+      "message": "related?",
+      "range": {
+        "startLine": 1116,
+        "startChar": 0,
+        "endLine": 1116,
+        "endChar": 35
+      },
+      "revId": "d825db5c645de9cdc7e2f89fe8f2f56a3d0b314c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

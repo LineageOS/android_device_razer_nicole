@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91c38f3f_be5a89e2",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:58:25Z",
+      "side": 1,
+      "message": "Looking, not sure stock sets this.",
+      "range": {
+        "startLine": 149,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 33
+      },
+      "revId": "7669a37e0f1ae53610b3338ee1648a16c20194b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "153f62fd_6df0617c",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:58:25Z",
+      "side": 1,
+      "message": "see above? ^",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 52
+      },
+      "revId": "7669a37e0f1ae53610b3338ee1648a16c20194b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

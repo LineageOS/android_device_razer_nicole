@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61e18d04_51bfe7f9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32d4e9e3_c47c6df5",
+      "range": {
+        "startLine": 444,
+        "startChar": 0,
+        "endLine": 444,
+        "endChar": 47
+      },
+      "revId": "9bc7898db3359db96b2073d208afcd9a3afe7784",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6667f950_b764b2fb",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-12-18T01:30:04Z",
       "side": 1,
       "message": "state why in commit msg",
+      "range": {
+        "startLine": 509,
+        "startChar": 0,
+        "endLine": 509,
+        "endChar": 54
+      },
+      "revId": "9bc7898db3359db96b2073d208afcd9a3afe7784",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28dfd86d_07a0e655",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T06:20:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6667f950_b764b2fb",
       "range": {
         "startLine": 509,
         "startChar": 0,

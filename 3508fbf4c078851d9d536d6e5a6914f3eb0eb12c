@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fbae569_008383a2",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:36:48Z",
+      "side": 1,
+      "message": "someone still needs to try this node",
+      "range": {
+        "startLine": 156,
+        "startChar": 0,
+        "endLine": 156,
+        "endChar": 119
+      },
+      "revId": "3508fbf4c078851d9d536d6e5a6914f3eb0eb12c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

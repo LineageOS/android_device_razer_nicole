@@ -20,6 +20,10 @@ android_app {
     required: [
         "hidden-api-whitelist-org.lineageos.telephonydisabler.xml",
     ],
+    overrides: [
+        "Dialer",
+        "GoogleDialer",
+    ],
 }
 
 prebuilt_etc {

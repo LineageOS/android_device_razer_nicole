@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2de3e31c_d55206af",
+        "filename": "init/init.target.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T01:58:36Z",
+      "side": 1,
+      "message": "do we wanna do it on that or on the sku prop?",
+      "range": {
+        "startLine": 220,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 33
+      },
+      "revId": "f03586b62a77e131ee75df161abdc6cc175cc2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

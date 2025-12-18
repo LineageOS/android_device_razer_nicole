@@ -9,11 +9,16 @@
 
     <queries>
         <package android:name="com.android.messaging" />
+        <package android:name="com.android.ons" />
+        <package android:name="com.google.android.euicc" />
         <package android:name="com.google.android.gms" />
         <package android:name="com.google.android.gsf" />
-        <package android:name="com.google.android.euicc" />
         <package android:name="com.google.android.ims" />
         <package android:name="com.google.android.messages" />
+        <package android:name="com.oma.dm.sub" />
+        <package android:name="com.razer.verizondata" />
+        <package android:name="com.verizon.mips.services" />
+        <package android:name="com.vzw.apnlib" />
     </queries>
 
     <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />

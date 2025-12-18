@@ -73,6 +73,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "39f0f2ff_15e6f623",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T05:38:28Z",
+      "side": 1,
+      "message": "whoops",
+      "parentUuid": "0d6ac015_14124685",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 93
+      },
+      "revId": "45e2e5daa3b31b1ba86ec998b2f8ccc89ad9b890",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "12482d44_25ef6d07",
         "filename": "overlay/FrameworksResCommon/res/values/config.xml",
         "patchSetId": 1

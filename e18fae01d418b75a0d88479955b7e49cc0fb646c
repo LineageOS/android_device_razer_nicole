@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "220398bb_eba757f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2025-12-18T21:27:11Z",
+      "side": 1,
+      "message": "Not including Dialer might be breaking ril at the moment.",
+      "revId": "e18fae01d418b75a0d88479955b7e49cc0fb646c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

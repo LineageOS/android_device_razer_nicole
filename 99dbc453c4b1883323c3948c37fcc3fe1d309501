@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd573f26_37d29e8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-18T09:27:31Z",
+      "side": 1,
+      "message": "I think we should keep this and/or move it to SKU overlays because the default name here is just \"Edge\"",
+      "revId": "99dbc453c4b1883323c3948c37fcc3fe1d309501",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

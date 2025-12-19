@@ -1025,7 +1025,6 @@ system/framework/com.verizon.ims.jar:product/framework/com.verizon.ims.jar
 system/framework/com.verizon.net.jar:product/framework/com.verizon.net.jar
 system/framework/com.verizon.phone.jar:product/framework/com.verizon.phone.jar
 system/priv-app/MVS/MVS.apk:product/priv-app/MVS/MVS.apk;PRESIGNED
-system/priv-app/ONS/ONS.apk:product/priv-app/ONS/ONS.apk
 system/priv-app/subsdm/subsdm.apk:product/priv-app/subsdm/subsdm.apk
 
 # Vibrator firmware

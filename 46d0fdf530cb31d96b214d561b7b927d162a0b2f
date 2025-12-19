@@ -22,6 +22,30 @@
       },
       "revId": "46d0fdf530cb31d96b214d561b7b927d162a0b2f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b84a3907_9326a527",
+        "filename": "TelephonyDisabler/src/org/lineageos/telephonydisabler/TelephonyDisabler.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-19T06:51:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8e7418d_8065ade8",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 33
+      },
+      "revId": "46d0fdf530cb31d96b214d561b7b927d162a0b2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

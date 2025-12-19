@@ -16,6 +16,24 @@
       "message": "Not including Dialer might be breaking ril at the moment.",
       "revId": "e18fae01d418b75a0d88479955b7e49cc0fb646c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bf6ea33_21bbeaa6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-19T06:29:25Z",
+      "side": 1,
+      "message": "works fine - was quectel_reset",
+      "parentUuid": "220398bb_eba757f0",
+      "revId": "e18fae01d418b75a0d88479955b7e49cc0fb646c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

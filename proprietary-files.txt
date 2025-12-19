@@ -747,7 +747,7 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
 # Razer Kishi Gamepad
-system/app/Bianca/Bianca.apk:product/app/Bianca/Bianca.apk;PRESIGNED
+system/app/Bianca/Bianca.apk:product/app/Bianca/Bianca.apk|0f841a516c028833f79d5d7f9975c9b17d5891f3;PRESIGNED
 
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk

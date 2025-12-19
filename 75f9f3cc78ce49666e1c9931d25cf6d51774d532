@@ -33,6 +33,24 @@
       "message": "You did not add google messages",
       "revId": "75f9f3cc78ce49666e1c9931d25cf6d51774d532",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fe17da9_2395fe91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-19T03:25:15Z",
+      "side": 1,
+      "message": "ah meh I added it to queries but not the KT list.",
+      "parentUuid": "88109028_13b35ea5",
+      "revId": "75f9f3cc78ce49666e1c9931d25cf6d51774d532",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

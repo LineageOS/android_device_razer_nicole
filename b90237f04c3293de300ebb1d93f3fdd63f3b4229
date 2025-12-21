@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "155fdce4_88cedfb7",
+        "filename": "overlay/FrameworksResTarget/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:54:08Z",
+      "side": 1,
+      "message": "unsure if we need these? Or a prop maybe?",
+      "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "942e0ace_f0f8b90c",
         "filename": "overlay/FrameworksResTarget/res/values/config.xml",
         "patchSetId": 6
@@ -31,6 +48,24 @@
       "writtenOn": "2025-12-21T22:47:51Z",
       "side": 1,
       "message": "actual changes in this file",
+      "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80c1d10b_afe82a25",
+        "filename": "overlay/FrameworksResTarget/res/values/dimens.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:54:08Z",
+      "side": 1,
+      "message": "need to check margins and such",
+      "parentUuid": "e83c01b8_2b8a661b",
       "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69eb6658_307fa729",
+        "filename": "overlay/WifiResTarget/AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:43:55Z",
+      "side": 0,
+      "message": "weird - needed?",
+      "range": {
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 46
+      },
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -58,6 +58,97 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af2f1f68_40d465d9",
+        "filename": "overlay/SettingsResCommon/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "move to lineage_config.xml",
+      "range": {
+        "startLine": 14,
+        "startChar": 16,
+        "endLine": 14,
+        "endChar": 51
+      },
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d0710dd_dffec86c",
+        "filename": "overlay/SettingsResTargetWifi/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "long gone...",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "786e67ab_c846b888",
+        "filename": "overlay/SystemUIResTarget/res/values/dimens.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "this entire file is confusing. None of this is on stock - not sure what we need and don\u0027t",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36673e97_f93fcf55",
+        "filename": "overlay/WifiResCommon/AndroidManifest.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "needed?",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eda8e702_a6efcde1",
+        "filename": "overlay/WifiResCommon/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "re-ordered no changes",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "69eb6658_307fa729",
@@ -77,6 +168,23 @@
         "endLine": 12,
         "endChar": 46
       },
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88e8280d_23b9d392",
+        "filename": "overlay/WifiResTarget/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:12:00Z",
+      "side": 0,
+      "message": "just re-ordered",
       "revId": "741cd0505e52cba165e96a0067590cb911f30108",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

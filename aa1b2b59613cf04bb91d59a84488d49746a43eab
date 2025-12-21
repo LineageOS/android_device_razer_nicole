@@ -22,6 +22,30 @@
       },
       "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4c7177c_b037dc44",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:35:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "f92297c6_16140c5d",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 42
+      },
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

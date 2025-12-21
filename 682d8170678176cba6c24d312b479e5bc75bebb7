@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b5dd6cb_75007961",
+        "filename": "overlay/WifiResCommon/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:33:43Z",
+      "side": 1,
+      "message": "no changes, just moved around.",
+      "revId": "682d8170678176cba6c24d312b479e5bc75bebb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33d22390_b405a921",
+        "filename": "overlay/WifiResTarget/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:33:43Z",
+      "side": 1,
+      "message": "no changes, just moved around.",
+      "revId": "682d8170678176cba6c24d312b479e5bc75bebb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e74883e_5ada7ee0",
+        "filename": "overlay/WifiResTarget/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T22:33:43Z",
+      "side": 1,
+      "message": "no changes, just moved around.",
+      "revId": "682d8170678176cba6c24d312b479e5bc75bebb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

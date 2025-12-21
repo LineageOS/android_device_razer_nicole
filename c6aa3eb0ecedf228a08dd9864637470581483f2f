@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30b07842_604b3dd7",
+        "filename": "overlay/TelephonyResCommon/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:49:36Z",
+      "side": 1,
+      "message": "likely not needed? for all these additions",
+      "revId": "c6aa3eb0ecedf228a08dd9864637470581483f2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

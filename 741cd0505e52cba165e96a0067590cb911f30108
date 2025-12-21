@@ -1,6 +1,40 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "924c98c2_2e939a68",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:49:36Z",
+      "side": 0,
+      "message": "this was dropped - do we want to keep it?",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b39f9ec_3e9eca9a",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:49:36Z",
+      "side": 0,
+      "message": "this is dead?",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "26a0c7db_f024dcb0",

@@ -4,12 +4,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.target.wifi">
-
-    <overlay
-        android:isStatic="true"
-        android:priority="300"
-        android:targetPackage="com.android.settings"
-        android:requiredSystemPropertyName="ro.boot.hardware.sku"
-        android:requiredSystemPropertyValue="wifi" />
+          package="com.android.settings.target.wifi">
+    <overlay android:targetPackage="com.android.settings"
+             android:isStatic="true"
+             android:priority="300"
+             android:requiredSystemPropertyName="ro.boot.hardware.sku"
+             android:requiredSystemPropertyValue="wifi" />
 </manifest>

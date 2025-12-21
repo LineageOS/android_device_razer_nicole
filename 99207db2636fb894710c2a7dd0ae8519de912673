@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb41b3d8_28204cac",
+        "filename": "overlay/FrameworksResCommonTelephony/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:04:39Z",
+      "side": 1,
+      "message": "left in place from otter?",
+      "revId": "99207db2636fb894710c2a7dd0ae8519de912673",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e89da66_be9b63f7",
+        "filename": "overlay/FrameworksResTarget/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-21T23:04:39Z",
+      "side": 1,
+      "message": "addition by us - keep.",
+      "revId": "99207db2636fb894710c2a7dd0ae8519de912673",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

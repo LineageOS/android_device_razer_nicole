@@ -10,6 +10,7 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">4dp</dimen>
 
+    <!-- Margin below the Keyguard indicator -->
     <dimen name="keyguard_indication_margin_bottom">300px</dimen>
 
     <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
@@ -21,5 +22,5 @@
 
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
          relies on this value will not be sized correctly. -->
-    <item name="pixel_pitch" format="float" type="dimen">64.37</item>
+    <item name="pixel_pitch" format="float" type="dimen">65.6</item>
 </resources>

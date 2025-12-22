@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "da448a93_5ae980aa",
+        "filename": "overlay/FrameworksResCommonTelephony/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 1,
+      "message": "not defined on stock",
+      "parentUuid": "cb41b3d8_28204cac",
+      "revId": "99207db2636fb894710c2a7dd0ae8519de912673",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "9e89da66_be9b63f7",

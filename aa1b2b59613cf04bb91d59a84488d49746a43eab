@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b689551a_1326a37a",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 0,
+      "message": "these were moved to telephony pro",
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f92297c6_16140c5d",
         "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
         "patchSetId": 2
@@ -44,6 +61,40 @@
         "endLine": 4,
         "endChar": 42
       },
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe4eed50_5b26209e",
+        "filename": "overlay/SettingsResTargetWifi/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 0,
+      "message": "dead?",
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a200f553_ca13042f",
+        "filename": "overlay/SystemUIResTarget/res/values/dimens.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 0,
+      "message": "dead",
       "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

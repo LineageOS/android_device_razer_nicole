@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60d26ab5_f3f65e52",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 1,
+      "message": "I put this here as 0 is cell, so I define the array without 0 in the common one.",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "235bc704_a28cf94b",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 1,
+      "message": "these actually changed",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3325960_39016fc9",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config_telephony.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-22T18:25:00Z",
+      "side": 1,
+      "message": "do we want this in config_telephony.xml within telephony rro? I just matched aosp.",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

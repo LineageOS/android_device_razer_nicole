@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5b3c12f_7756e4ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-23T09:34:42Z",
+      "side": 1,
+      "message": "This branch didn\u0027t diverge (yet), don\u0027t cherry-pick. Abandon and fast-forward when it\u0027s merge onto lineage-23.1.",
+      "revId": "38f21fe7ac36cee71b22602f84c26a07c2eff3ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

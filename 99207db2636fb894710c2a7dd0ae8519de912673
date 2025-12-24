@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "19429a33_5503c2dc",
+        "filename": "overlay/FrameworksResCommonTelephony/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T16:02:32Z",
+      "side": 1,
+      "message": "Tried it, it works.",
+      "parentUuid": "da448a93_5ae980aa",
+      "revId": "99207db2636fb894710c2a7dd0ae8519de912673",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "9e89da66_be9b63f7",
         "filename": "overlay/FrameworksResTarget/res/values/config.xml",
         "patchSetId": 11

@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4867f5e7_9051a791",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:50:49Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "b689551a_1326a37a",
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f92297c6_16140c5d",
@@ -82,6 +100,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d05fecb7_d343410c",
+        "filename": "overlay/SettingsResTargetWifi/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:50:49Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "fe4eed50_5b26209e",
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a200f553_ca13042f",
@@ -95,6 +131,24 @@
       "writtenOn": "2025-12-22T18:25:00Z",
       "side": 0,
       "message": "dead",
+      "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f650c81a_b853a896",
+        "filename": "overlay/SystemUIResTarget/res/values/dimens.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:50:49Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "a200f553_ca13042f",
       "revId": "aa1b2b59613cf04bb91d59a84488d49746a43eab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

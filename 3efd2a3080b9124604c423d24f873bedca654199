@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6bf0f65_1b2cc6c8",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:50:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60d26ab5_f3f65e52",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "235bc704_a28cf94b",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-12-22T18:25:00Z",
       "side": 1,
       "message": "these actually changed",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9282098e_d460ad7c",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:50:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "235bc704_a28cf94b",
       "revId": "3efd2a3080b9124604c423d24f873bedca654199",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },

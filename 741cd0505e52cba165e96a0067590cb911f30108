@@ -168,6 +168,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "73ca1cd1_abede269",
+        "filename": "overlay/WifiResCommon/AndroidManifest.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:55:36Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "36673e97_f93fcf55",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "eda8e702_a6efcde1",
         "filename": "overlay/WifiResCommon/res/values/config.xml",
         "patchSetId": 12
@@ -196,6 +214,30 @@
       "writtenOn": "2025-12-21T22:43:55Z",
       "side": 0,
       "message": "weird - needed?",
+      "range": {
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 46
+      },
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "799afdc3_1eab407a",
+        "filename": "overlay/WifiResTarget/AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T03:55:36Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "69eb6658_307fa729",
       "range": {
         "startLine": 12,
         "startChar": 8,

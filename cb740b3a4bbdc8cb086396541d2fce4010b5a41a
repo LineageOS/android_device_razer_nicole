@@ -33,6 +33,24 @@
       "message": "how stock declares it... even if we don\u0027t want the reserved stuff, we are missing saturated.",
       "revId": "cb740b3a4bbdc8cb086396541d2fce4010b5a41a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a98df8b7_ce489a7c",
+        "filename": "overlay/SettingsResCommon/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T18:10:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1fefc59_7a2f34bb",
+      "revId": "cb740b3a4bbdc8cb086396541d2fce4010b5a41a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

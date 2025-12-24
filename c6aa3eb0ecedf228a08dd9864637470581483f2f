@@ -16,6 +16,24 @@
       "message": "likely not needed? for all these additions",
       "revId": "c6aa3eb0ecedf228a08dd9864637470581483f2f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2803aa69_2a1a8bfe",
+        "filename": "overlay/TelephonyResCommon/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30b07842_604b3dd7",
+      "revId": "c6aa3eb0ecedf228a08dd9864637470581483f2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

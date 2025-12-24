@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "013fffa9_76a5564e",
+        "filename": "overlay/FrameworksResTarget/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "155fdce4_88cedfb7",
+      "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "942e0ace_f0f8b90c",
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "need to check margins and such",
       "parentUuid": "e83c01b8_2b8a661b",
+      "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7432e5f1_b79c6b58",
+        "filename": "overlay/FrameworksResTarget/res/values/dimens.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80c1d10b_afe82a25",
       "revId": "b90237f04c3293de300ebb1d93f3fdd63f3b4229",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

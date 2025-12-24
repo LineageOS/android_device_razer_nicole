@@ -55,6 +55,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "c79987aa_630dc2f3",
+        "filename": "overlay/FrameworksResCommon/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "5b39f9ec_3e9eca9a",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "26a0c7db_f024dcb0",
         "filename": "overlay/FrameworksResCommonTelephony/res/values/config.xml",
         "patchSetId": 11
@@ -112,6 +130,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f3802b17_9c0106e2",
+        "filename": "overlay/FrameworksResTarget/res/xml/power_profile.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "eb84b020_5376b72e",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "af2f1f68_40d465d9",
         "filename": "overlay/SettingsResCommon/res/values/config.xml",
         "patchSetId": 12
@@ -163,6 +199,24 @@
       "writtenOn": "2025-12-21T23:12:00Z",
       "side": 0,
       "message": "this entire file is confusing. None of this is on stock - not sure what we need and don\u0027t",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6626e7b7_3fe5f1f5",
+        "filename": "overlay/SystemUIResTarget/res/values/dimens.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:43:37Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "786e67ab_c846b888",
       "revId": "741cd0505e52cba165e96a0067590cb911f30108",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },

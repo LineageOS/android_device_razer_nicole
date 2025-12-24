@@ -111,6 +111,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "90516a58_24b05934",
+        "filename": "overlay/FrameworksResTarget/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T05:15:13Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "e7a49070_446f712d",
+      "revId": "741cd0505e52cba165e96a0067590cb911f30108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb84b020_5376b72e",

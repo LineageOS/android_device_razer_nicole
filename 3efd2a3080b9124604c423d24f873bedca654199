@@ -86,6 +86,24 @@
       "message": "do we want this in config_telephony.xml within telephony rro? I just matched aosp.",
       "revId": "3efd2a3080b9124604c423d24f873bedca654199",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da30d338_c10866d1",
+        "filename": "overlay/FrameworksResTargetTelephony/res/values/config_telephony.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T04:54:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3325960_39016fc9",
+      "revId": "3efd2a3080b9124604c423d24f873bedca654199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

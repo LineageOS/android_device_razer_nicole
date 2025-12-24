@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b06c0b41_46a60e1d",
+        "filename": "overlay/FrameworksResCommonTelephony/res/values/config.xml",
+        "patchSetId": 24
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-24T05:16:55Z",
+      "side": 1,
+      "message": "Not sure how to this..\n\n0 is mobile\n\nis 0 1 5 7 in common\n1 5 7 in telephony which overrides\n\nbut it looks like it\u0027s only used in packages/modules/Connectivity post fwb resource deprecation\n\nso we need a tethering overlay I guess?\n\nor we note in commit msg and drop it if not needed....",
+      "range": {
+        "startLine": 49,
+        "startChar": 25,
+        "endLine": 49,
+        "endChar": 53
+      },
+      "revId": "2888cddf3734afc37dcc497dfc0cbb6e5a688208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

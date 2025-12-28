@@ -5,40 +5,12 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <resources>
-    <!-- This setting is deprecated, please use
-         com.android.networkstack.tethering.R.array.config_tether_upstream_types. -->
-    <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
-    <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
-    <!== [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
-    <integer-array name="config_tether_upstream_types">
-        <item>1</item>
-        <item>5</item>
-        <item>7</item>
-    </integer-array>
-
     <!-- Flag indicating whether we should enable the automatic brightness.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
-
-    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
-    <integer-array name="config_availableColorModes">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
-        <item>256</item>
-        <item>257</item>
-        <item>258</item>
-        <item>259</item>
-        <item>260</item>
-        <item>261</item>
-        <item>262</item>
-        <item>263</item>
-        <item>264</item>
-        <item>265</item>
-    </integer-array>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
@@ -84,33 +56,6 @@
         <item>6000</item>
         <item>7000</item>
         <item>10000</item>
-    </integer-array>
-
-    <!-- Array of output values for LCD backlight corresponding to the lux values
-         in the config_autoBrightnessLevels array.  This array should have size one greater
-         than the size of the config_autoBrightnessLevels array.
-         The brightness values must be between 0 and 255 and be non-decreasing.
-         This must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>1</item>
-        <item>35</item>
-        <item>70</item>
-        <item>80</item>
-        <item>85</item>
-        <item>90</item>
-        <item>95</item>
-        <item>100</item>
-        <item>110</item>
-        <item>125</item>
-        <item>130</item>
-        <item>170</item>
-        <item>180</item>
-        <item>190</item>
-        <item>200</item>
-        <item>210</item>
-        <item>220</item>
-        <item>230</item>
-        <item>255</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -181,26 +126,26 @@
 
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-         <item>9.0</item>
-         <item>13.0</item>
-         <item>45.0</item>
-         <item>60.0</item>
-         <item>70.0</item>
-         <item>80.0</item>
-         <item>90.0</item>
-         <item>100.0</item>
-         <item>140.0</item>
-         <item>170.0</item>
-         <item>190.0</item>
-         <item>200.0</item>
-         <item>302.0</item>
-         <item>345.0</item>
-         <item>360.0</item>
-         <item>370.0</item>
-         <item>390.0</item>
-         <item>400.0</item>
-         <item>500.0</item>
-     </array>
+        <item>9.0</item>
+        <item>13.0</item>
+        <item>45.0</item>
+        <item>60.0</item>
+        <item>70.0</item>
+        <item>80.0</item>
+        <item>90.0</item>
+        <item>100.0</item>
+        <item>140.0</item>
+        <item>170.0</item>
+        <item>190.0</item>
+        <item>200.0</item>
+        <item>302.0</item>
+        <item>345.0</item>
+        <item>360.0</item>
+        <item>370.0</item>
+        <item>390.0</item>
+        <item>400.0</item>
+        <item>500.0</item>
+    </array>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->

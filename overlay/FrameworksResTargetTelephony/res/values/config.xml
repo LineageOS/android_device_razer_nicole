@@ -5,10 +5,15 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <resources>
-    <!-- MMS user agent string -->
+    <!-- MMS user agent string, for example OemNameDeviceName
+         If the string contains a '%s' format string then that substring will be replaced
+         with the value of Build.MODEL , ie
+         <string name="config_mms_user_agent">OemName%s</string> -->
     <string name="config_mms_user_agent">odrazerz450460</string>
 
-    <!-- MMS user agent prolfile url -->
+    <!-- MMS user agent prolfile url, for example https://uaprof.oem_name.com/DeviceName.xml
+         if the string contains a '%s' format string then that substring will be replaced
+         with the value of Build.MODEL , ie https://uaprof.oem_name.com/%s.xml -->
     <string name="config_mms_user_agent_profile_url">http://uaprof.vtext.com/razer/odrazerz450460/odrazerz450460.xml</string>
 
     <!-- An array of device capabilities defined by GSMA SGP.22 v2.0.
@@ -35,12 +40,4 @@
         <item>nr5gc,15</item>
         <item>eutran5gc,15</item>
     </string-array>
-
-    <!-- Config determines whether to update phone object when voice registration
-         state changes. Voice radio tech change will always trigger an update of
-         phone object irrespective of this config -->
-    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-
-    <!-- Whether to select voice/data/sms preference without user confirmation -->
-    <bool name="config_voice_data_sms_auto_fallback">true</bool>
 </resources>

@@ -5,6 +5,13 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <resources>
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </integer-array>
+
     <!-- Disable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
 

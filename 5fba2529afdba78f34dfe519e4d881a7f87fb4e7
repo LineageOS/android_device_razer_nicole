@@ -46,6 +46,30 @@
       },
       "revId": "5fba2529afdba78f34dfe519e4d881a7f87fb4e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf18bae2_5be9e676",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-12T10:05:15Z",
+      "side": 1,
+      "message": "It was just a heads-up. Some people also ignore it, but in this case it looks really bad, in my opinion.",
+      "parentUuid": "f9bb0d31_36fb722f",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 68
+      },
+      "revId": "5fba2529afdba78f34dfe519e4d881a7f87fb4e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [

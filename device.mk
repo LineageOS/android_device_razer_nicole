@@ -158,8 +158,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
 
-$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/qcom-battery/battcharge_input_suspend)
-
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \

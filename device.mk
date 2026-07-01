@@ -186,6 +186,9 @@ PRODUCT_ENABLE_UFFD_GC := true
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
 
+# libion
+$(call soong_config_set_bool,libion,enabled,true)
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default

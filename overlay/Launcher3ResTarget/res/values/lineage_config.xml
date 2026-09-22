@@ -4,6 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Allow rotation by default -->
-    <bool name="config_allowRotation">true</bool>
+    <!-- Show fixed landscape mode preference -->
+    <bool name="config_fixedLandscapeModeAvailable">true</bool>
+
+    <!-- Default to fixed landscape mode -->
+    <bool name="config_fixedLandscapeModeDefault">true</bool>
 </resources>
